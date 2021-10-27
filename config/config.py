@@ -5,7 +5,7 @@ import yaml
 
 def read_config() -> tp.Dict[str, str]:
 
-    config_path = 'config.yaml'
+    config_path = './Telegram_bot_robonomics_coffeemaker/config/config.yaml'
     logging.debug(config_path)
 
     try:

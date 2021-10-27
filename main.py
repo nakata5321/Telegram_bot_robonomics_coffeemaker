@@ -1,5 +1,5 @@
-from lib.telegram_bot import bot_sent_message
-from config.config import read_config
+from .lib.telegram_bot import bot_sent_message
+from .config.config import read_config
 import logging
 
 
@@ -13,7 +13,8 @@ def main() -> None:
     config = read_config()
 
     logging.info("send message to coffee delivers")
-    bot_sent_message(config["bot_token"], config["bot_chat_id"], "misc/message.ogg")
+    bot_sent_message(config["bot_token"], config["bot_chat_id"],
+                     "./Telegram_bot_robonomics_coffeemaker/misc/message.ogg")
 
 
 if __name__ == '__main__':
