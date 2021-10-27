@@ -9,7 +9,8 @@ fill in `config_template.yaml` file and change it name to `config.yaml`
 
 ## run
 ```shell
-python3 main.py
+from Telegram_bot_robonomics_coffeemaker import main
+main()
 ```
 
 ### статьи
