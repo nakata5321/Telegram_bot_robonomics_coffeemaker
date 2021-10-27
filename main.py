@@ -23,7 +23,7 @@ def read_config(path: str) -> tp.Dict[str, str]:
             exit()
 
 
-if __name__ == '__main__':
+def main() -> None:
     # set up logging
     logging.basicConfig(
         level=logging.INFO,
@@ -36,3 +36,7 @@ if __name__ == '__main__':
 
     logging.info("send message to coffee delivers")
     bot_sent_message(config["bot_token"], config["bot_chat_id"], "misc/message.ogg")
+
+
+if __name__ == '__main__':
+    main()
