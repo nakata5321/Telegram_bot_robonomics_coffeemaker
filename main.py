@@ -1,4 +1,4 @@
-from .lib.telegram_bot import bot_sent_message
+from .lib import bot_sent_message
 from .config.config import read_config
 import logging
 

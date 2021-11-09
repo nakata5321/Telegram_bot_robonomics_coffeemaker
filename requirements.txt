@@ -3,3 +3,4 @@ gtts==2.2.3
 pydub==0.25.1
 PyYAML==6.0
 python-telegram-bot --upgrade
+importlib-resources
