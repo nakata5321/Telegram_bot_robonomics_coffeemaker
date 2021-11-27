@@ -1,0 +1,5 @@
+PyYAML
+pydub
+python-telegram-bot --upgrade
+gTTS
+requests

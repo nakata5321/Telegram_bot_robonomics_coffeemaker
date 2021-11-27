@@ -1,0 +1,3 @@
+py-espeak-ng
+pyttsx3
+gTTS
