@@ -1,9 +1,7 @@
 import telegram
 
-bot_token = '2062171338:AAExSL35b7YW1ZmskdE3K_olMk3BHUQKYDc'
-#bot_chat_id = '360407525' # pasha
-#bot_chat_id = '441944588'
-bot_chat_id = '176010107' # ylia
+bot_token = ''
+bot_chat_id = ''
 
 bot = telegram.Bot(token=bot_token)
 
